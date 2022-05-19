@@ -1,43 +1,42 @@
-
 Dokument README.md jest obecnie w budowie.
    
-# Projekt Open source: Track Eexpenses App
+# Projekt Open Source: Track Expenses App
 Projekt tworzony przy współpracy społeczności "Byczej zagrody". 
-Projektem jest aplikacja do śledzenia wydatków osobistych. Aplikacja zostanie podzielona na backend i na frontend z osobnymi repozytoriami na githubie. Jest to aplikacja oparta na architekturze REST i modelu  Minimum Viable Product (MVP). 
+Projektem jest aplikacja do śledzenia wydatków osobistych. Aplikacja zostanie podzielona na backend i na frontend z osobnymi repozytoriami na GitHub. Jest to aplikacja oparta na architekturze REST i modelu Minimum Viable Product (MVP). 
 
-## Jak zaczać:
-Należy sklonować repozytorium backend i frontend przez https lub ssh według uznania z którego połączenia korzystacie. 
-#### Rrepozytorium backend; 
+## Jak zacząć:
+Należy sklonować repozytorium backend i frontend przez https lub ssh według uznania, z którego połączenia korzystacie. 
+#### Repozytorium backend 
  - git clone: https://github.com/bykowski/track-expenses-app.git  lub
  - git clone: git@github.com:bykowski/track-expenses-app.git 
 
-#### Repozytorium frontend (w terminie poźniejszym)
+#### Repozytorium frontend (w terminie późniejszym)
 
-Po sklonowaniu aby uruchomić aplikację należy wejść na http://localhost:8080 
+Po sklonowaniu, aby uruchomić aplikację, należy wejść na http://localhost:8080 
 
-## Prerequisites
+## Prerequisites:
 
 Do uruchomienia aplikacji na maszynach wymagana jest instalacja następujących narzędzi:
  - IntelliJ IDEA / VSC/ Eclipse,
- - Java 17,
+ - Java 17 LTS,
  - MySql Workbench/ DBeaver,
  - Git Bush,
- - Maven,
- - Postman
+ - Maven 3.x,
+ - Postman.
 
  ## Stack technologiczny - backend:
-  - Java 17, 
+  - Java 17 LTS, 
   - Spring Boot 2,      
   - Spring Data,
   - Spring Security,
   - Swagger,
-  - MySql (docker)
-  - liquibase,
-  - maven
+  - MySql (docker),
+  - Liquibase,
+  - Maven 3.x.
 
 ## Testy backend:
   - JUnit5,
-  - Mockito
+  - Mockito.
 
 ## Stack technologiczny - frontend:
   - Typescript,
@@ -45,21 +44,21 @@ Do uruchomienia aplikacji na maszynach wymagana jest instalacja następujących 
   - Sass/SCSS, 
   - NgRX, 
   - Material,
-  - Yarn
+  - Yarn.
 
-## Contributing
-Proszę przeczytać [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) na temat "Kodeksu Postępowania dotyczący Współtwórców" 
+## Contributing:
+Proszę przeczytać [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) na temat "Kodeksu Postępowania dotyczący Współtwórców".
 
-## Authors 
-Work in progress
+## Authors:
+Work in progress.
 
-## License
+## License:
 Projekt jest objęty licencją Apache License Version 2.0, January 2004 - [LICENSE](LICENSE)
 
-### Początkowe załorzenia aplikacji:
-  - jest to mały projekt aby można było go ukończyć z najlepszymi praktykami, 
-  - zbudownie rdzenia aplikacji która wykonuje podsatwowe operacje jak: dodaj, usuń, zmodyfikuj, zmień wydatek.  
-  - jest to projket w którym możemy wspólnie popracować i uczyć się od siebie na wzajem, poszerzać umiejęctności lub też je utrwalać. Wszystko zależy od tego na jakim etapie nauki aplikacji bazujących na Spring Boot 2 jesteście. 
+### Początkowe założenia aplikacji:
+  - jest to mały projekt, aby można było go ukończyć z najlepszymi praktykami, 
+  - zbudowanie rdzenia aplikacji, która wykonuje podstawowe operacje jak: dodaj, usuń, zmodyfikuj, zmień wydatek,  
+  - jest to projekt, w którym możemy wspólnie popracować i uczyć się od siebie nawzajem, poszerzać umiejętności lub też je utrwalać. Wszystko zależy od tego, na jakim etapie nauki aplikacji bazujących na Spring Boot 2 jesteście. 
     
 
 ### W przygotowaniu wersja angielska README.md

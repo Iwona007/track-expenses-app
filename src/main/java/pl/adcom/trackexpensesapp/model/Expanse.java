@@ -12,12 +12,12 @@ import java.util.Currency;
 @Entity
 @Data
 @NoArgsConstructor
-@Table(name = "question")
+@Table(name = "expanse")
 public class Expanse {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long Id;
 
     @NotBlank(message = "Expanse name is mandatory")
     private String Name;

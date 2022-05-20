@@ -25,7 +25,7 @@ public class Owner {
     @NotBlank(message = "LastName is mandatory")
     private String LastName;
 
-    @OneToMany(mappedBy = "" ,cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "owner" ,cascade = CascadeType.ALL)
     private Set<Expanse> expanses;
 
 }
